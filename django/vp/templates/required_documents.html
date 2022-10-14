@@ -1,0 +1,532 @@
+{% extends 'base.html' %}
+
+{% block title%} Library {% endblock title %}
+
+<style>
+  td,
+  th {
+    text-align: center !important;
+
+  }
+</style>
+
+{%block body%}
+
+<div
+  class="container table-responsive d-flex justify-content-center align-items-center mt-5 mb-5 shadow-lg p-3 mb-5 bg-white rounded">
+
+  <div class="container py-md-5 ">
+    <div style="text-align:center; font-size:16px; font-family:Cambria; padding:0 10% 10% 10%; width:100%; ">
+      <p align-text="center"></strong>Required Documents for Admission 2019-20</strong></p>
+      <table border="1" cellspacing="5px" cellpadding="5px" align="left" width="100%">
+        <tbody>
+          <tr>
+            <td width="127" rowspan="26"><br>
+              <strong>For First Year</strong>
+            </td>
+            <td width="156" rowspan="7">
+              <p align="center"><strong>Open Category</strong></p>
+            </td>
+            <td width="408" valign="top">
+              <p align="center"><strong>ORIGINAL DOCUMENTS</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="middle" align="left">
+              <div align="left"><strong style="padding-left:20px;">1.</strong> 12th Marksheet + 2 xerox </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="middle" align="left">
+              <div align="left"><strong style="padding-left:20px;">2.</strong> School Leaving Certificate (L.C) + 2
+                xerox </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="middle" align="left">
+              <div align="left"><strong style="padding-left:20px;">3</strong>. Gap certificate (If applicable)</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="middle" align="left">
+              <div align="left"><strong style="padding-left:20px;">4.</strong> Aadhar card xerox 2 copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="middle" align="left">
+              <div align="left"><strong style="padding-left:20px;">5.</strong> Domicile certificate issued by tahasil
+                xerox 2 copy </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="middle" align="left">
+              <div align="left"><strong style="padding-left:20px;">6.</strong> 2 Colour Photos ( Size 35 x 25mm) </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="156" rowspan="10">
+              <p align="center"><strong>SC Category</strong></p>
+            </td>
+            <td width="408" valign="top">
+              <p align="center"><strong>ORIGINAL DOCUMENTS</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left"><strong style="padding-left:20px;">1.</strong> 12th Marksheet + 2 xerox</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left"><strong style="padding-left:20px;">2.</strong> School Leaving Certificate (L.C) + 2
+                xerox</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left"><strong style="padding-left:20px;">3.</strong> Gap certificate (If applicable)&gt;</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left"><strong style="padding-left:20px;">4.</strong> Caste certificate + 2 xerox</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left"><strong style="padding-left:20px;">5.</strong> Income certificate(Income Limit 2.5 lakh)
+                (2018-19) fathers</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left"><strong style="padding-left:20px;">6.</strong> Aadhar card xerox 2 copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left"><strong style="padding-left:20px;">7.</strong> Domicile certificate issued by tahasil
+                xerox 2 copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left"><strong style="padding-left:20px;">8.</strong> Bank pass book Xerox copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left"><strong style="padding-left:20px;">9.</strong> 2 Colour Photos ( Size 35 x 25mm)</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="156" rowspan="9">
+              <p align="center"><strong>Other Category</strong><br>
+                <strong>(OBC, SBC, VJ, NT)</strong>
+              </p>
+            </td>
+            <td width="408" valign="top">
+              <p align="center"><strong>ORIGINAL DOCUMENTS</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">1. </strong>12th Marksheet + 2 xerox
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">2.</strong> School Leaving Certificate (L.C) + 2 xerox
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">3.</strong> Gap certificate (If applicable)
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">4. </strong>Caste Certificate + 2 xerox
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">5. </strong>Non cremy layer (up to 31st&nbsp; March 2020) + 2 xerox
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">6.</strong> Aadhar card xerox 2 copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">7.</strong> Domicile certificate issued by tahasil xerox 2 copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="408" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">8. </strong>2 Colour Photos ( Size 35 x 25mm)
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>&nbsp;</strong></p>
+
+      <p><strong>For students seeking admission from other Colleges following documents required.</strong></p>
+      <table border="1" cellspacing="5px" cellpadding="5px" width="100%">
+        <tbody>
+          <tr>
+            <td width="690" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">1.</strong> 12th Original Marksheet + 2 xerox
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="690" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">2.</strong> Original Leaving certificate + 2 xerox
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="690" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">3.</strong> Last year Original result + 2 xerox
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="690" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">4.</strong> Caste Certificate + 2 xerox1.
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="690" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">5.</strong> Non cremylayer certificate (up to 31st&nbsp; March 2020)
+                + 2 xerox
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="690" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">6.</strong> Gap certificate (If applicable)
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="690" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">7.</strong> Income certificate(Income Limit 2.5 lakh) (2018-19)
+                fathers
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="690" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">8.</strong> Aadhar card xerox 2 copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="690" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">9.</strong> Domicile certificate issued by tahasil xerox 2 copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="690" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">10.</strong> Two Colour Photos ( Size 35 x 25mm)
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><strong>For Regular Students of VPCSC, Indapur</strong></p>
+      <table border="1" cellspacing="5px" cellpadding="5px" width="100%">
+        <tbody>
+          <tr>
+            <td width="132" rowspan="16"><br>
+              <strong>For second Year</strong>
+            </td>
+            <td width="156" rowspan="5">
+              <p align="center"><strong>Open category</strong></p>
+            </td>
+            <td width="402" valign="top">
+              <p align="center"><strong>Xerox copies</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">1.</strong> FY Marksheet 1 xerox copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">2. </strong>Aadhar card&nbsp; 1 xerox copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">3.</strong> Domicile certificate issued by tahasil xerox 1copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">4.</strong> 2 Colour Photos ( Size 35 x 25mm)
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="156" rowspan="6">
+              <p align="center"><strong>SC Category</strong></p>
+            </td>
+            <td width="402" valign="top">
+              <p align="center"><strong>Xerox copies</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">1.</strong> FY Marksheet 1 xerox copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">2.</strong> Aadhar card 1 xerox copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">3.</strong> Domicile certificate issued by tahasil xerox 1copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">4.</strong> 2 Colour Photos ( Size 35 x 25mm)
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">5.</strong> Income certificate(Income Limit 2.5 lakh) (2018-19)
+                fathers
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="156" rowspan="5">
+              <p align="center"><strong>Other Category</strong><br>
+                <strong>(OBC, SBC, VJ, NT)</strong>
+              </p>
+            </td>
+            <td width="402" valign="top">
+              <p align="center"><strong>Xerox copies</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">1.</strong> FY Marksheet 1 xerox copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">2.</strong> Aadhar card 1 xerox copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">3.</strong> Domicile certificate issued by tahasil xerox 1copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">4.</strong> 2 Colour Photos ( Size 35 x 25mm)
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;</p>
+      <table border="1" cellspacing="5px" cellpadding="5px" width="100%">
+        <tbody>
+          <tr>
+            <td width="132" rowspan="19">
+              <p align="center"><strong>For Third Year</strong></p>
+            </td>
+            <td width="156" rowspan="6">
+              <p align="center"><strong>Open category</strong></p>
+            </td>
+            <td width="402" valign="top">
+              <p align="center"><strong>Xerox copies</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left"><strong style="padding-left:20px;">1.</strong> FY Marksheet 1 xerox copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left"><strong style="padding-left:20px;">2.</strong> SY Marksheet 1 xerox copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left"><strong style="padding-left:20px;">3.</strong> Aadhar card 1 xerox copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left"><strong style="padding-left:20px;">4.</strong> Domicile certificate issued by tahasil
+                xerox 1copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left"><strong style="padding-left:20px;">5.</strong> 2 Colour Photos ( Size 35 x 25mm)</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="156" rowspan="7">
+              <p align="center"><strong>SC Category</strong></p>
+            </td>
+            <td width="402" valign="top">
+              <p align="center"><strong>Xerox copies</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">1.</strong> FY Marksheet&nbsp; 1 xerox copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">2.</strong> SY Marksheet 1 xerox copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">3.</strong> Aadhar card 1 xerox copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">4.</strong> Domicile certificate issued by tahasil xerox 1copy
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">5.</strong> 2 Colour Photos ( Size 35 x 25mm)&lt;
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left">
+                <strong style="padding-left:20px;">6.</strong> Income certificate(Income Limit 2.5 lakh) (2018-19)
+                fathers
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width="156" rowspan="6">
+              <p align="center"><strong>Other Category</strong><br>
+                <strong>(OBC, SBC, VJ, NT)</strong>
+              </p>
+            </td>
+            <td width="402" valign="top">
+              <p align="center"><strong>Xerox copies</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left"><strong style="padding-left:20px;">1.</strong> FY Marksheet 1 xerox copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left"><strong style="padding-left:20px;">2.</strong> SY Marksheet 1 xerox copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left"><strong style="padding-left:20px;">3.</strong> Aadhar card 1 xerox copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left"><strong style="padding-left:20px;">4.</strong> Domicile certificate issued by tahasil
+                xerox 1copy</div>
+            </td>
+          </tr>
+          <tr>
+            <td width="402" valign="top">
+              <div align="left"><strong style="padding-left:20px;">5.</strong> 2 Colour Photos ( Size 35 x 25mm)</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;</p>
+    </div>
+
+  </div>
+</div>
+
+{%endblock body%}

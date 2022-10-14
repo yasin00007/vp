@@ -1,0 +1,156 @@
+{% extends 'base.html' %}
+
+{% block title%} Library {% endblock title %}
+
+
+
+{%block body%}
+<style>
+  li:hover {
+    color: #ffc107 !important;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  h3:hover {
+    color: #ffc107 !important;
+    cursor: pointer;
+
+  }
+
+  .container {
+    margin-bottom: 40px;
+  }
+</style>
+<h3 class="text-center mt-5">Library</h3>
+
+<div class="container">
+
+  <div class="accordion " id="accordionExample">
+    <div class="accordion-item ">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Books:
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul class="list-group">
+            <li class="list-group-item">Text Book(3899)</li>
+            <li class="list-group-item">General Book(245)</li>
+            <li class="list-group-item">Donated Book(58)</li>
+            <li class="list-group-item">E-Book(30)</li>
+            <li class="list-group-item">Competitive Exam Book(59)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Online free Journals
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Directory of Open Access Journals</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><a href="http://www.doja.org"> Go To </a> </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Science Articles</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><a href="http://www.scienceopen.com"> Go To </a></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Mathematics , Computer SCI and Science Articles</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><a href="https://arxiv.org/"> Go To </a></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Social Science</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><a href="https://www.ssrn.com.com/en/"> Go To </a></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Scientific Research Publication</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><a href="http://www.scirp.org/journal/ojacct"> Go To
+                </a></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Free E- Journals.org</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><a href="http://www.e-journals.org/"> Go To </a></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Competitive Exam</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><a href="http://upscfever.com/upsc-fever/index.html"> Go To
+                </a></span>
+            </li>
+          </ol>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Online Marathi Sahitya:
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold"> मराठी पुस्तके</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><a href="http://www.esahity.com"> Go To </a> </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">मराठी साहित्य</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><a href="http://antaraal.com/"> Go To </a></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">मराठी साहित्य</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><a href="http://www.chaprak.com/"> Go To </a> </span>
+            </li>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+{%endblock body%}
